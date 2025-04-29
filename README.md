@@ -1,5 +1,5 @@
-# MailMan
-<b>MailMan </b> is a gmail automation bot that you can use for automating your mails.
+# MailR
+<b>MailR </b> is a gmail automation bot that you can use for automating your mails.
 ## What it does
 1. Logs into Gmail account securely.
 2. Automates sending your report files (*.xlsx)
