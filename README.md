@@ -2,12 +2,24 @@
 <b>MailR </b> is a gmail automation bot that you can use for automating your mails.
 ## What it does
 1. Logs into Gmail account securely.
-2. Automates sending your report files (*.xlsx)
+2. Automates sending your report files (*.xlsx) via gmail.
 
 ## Requirements
 You can download requirements by running `libraries.bat` file or executing following in your terminal:
 ```
 pip install -r requirements.txt
+```
+
+## Installation
+```bash
+# Clone the repo
+git clone https://github.com/pushkar009/MailR.git
+# change working directory
+cd MailR
+# Note: Setup Gmail api before executing
+python MailR.py
+
+# P.S.- You have to login for the first time in order to create token.json 
 ```
 
 ## 🌐Setup Gmail Access
@@ -27,9 +39,9 @@ pip install -r requirements.txt
 * Choose External in <b>Audience</b> (it's just for you)
 
 1. Scroll to “Test Users” section.
-2. Click Add Users.
+2. Click ```Add Users```.
 3. Enter the email address you’re using to run the script (e.g., your Gmail account).
-4. Click Save.
+4. Click <b>Save</b>.
 
 This tells Google: “Hey, it’s okay, I trust this bot. It's just me using it for now.”
 
